@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 
 @DisplayName("RecentlyUsedList")
 class RecentlyUsedListTest {
-    private var list = RecentlyUsedList()
+    private lateinit var list: RecentlyUsedList
 
     @BeforeEach
     fun setUp() {
