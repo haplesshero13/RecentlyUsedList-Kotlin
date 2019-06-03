@@ -19,3 +19,8 @@ interface RecentlyUsedList {
     fun insert(element: String)
 }
 ```
+## Run the tests
+
+1. Import the project in IntelliJ or your favorite IDE
+1. Open `src/test/kotlin/RecentlyUsedListTest.kt` 
+1. Run the JUnit test in the file
