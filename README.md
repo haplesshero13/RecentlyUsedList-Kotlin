@@ -21,6 +21,9 @@ interface RecentlyUsedList {
 ```
 ## Run the tests
 
-1. Import the project in IntelliJ or your favorite IDE
+1. Import the project in IntelliJ
+    1. Click Import Project
+    1. Open the `build.gradle` file
+    1. Select "Use Auto-import" to make your life easier
 1. Open `src/test/kotlin/RecentlyUsedListTest.kt` 
 1. Run the JUnit test in the file
